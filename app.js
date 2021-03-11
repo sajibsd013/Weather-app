@@ -16,7 +16,7 @@ const getWeatherData = city => {
 document.getElementById('search-button').addEventListener('click', () => {
 
     const city = document.getElementById('location').value;
-
+    getWeatherData(city);
 })
 
 
